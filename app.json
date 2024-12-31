@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "maicolandco",
+    "slug": "maicolandco",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/maicolcohome.png",
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "favicon": "./assets/maicolcohome.png",
+      "shortName": "MyPWA",
+      "themeColor": "#ffffff",
+      "backgroundColor": "#ffffff",
+      "lang": "en",
+      "display": "standalone",
+      "scope": "/",
+      "startUrl": "/"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.maicolandco"
+    },
+    "android": {
+      "package": "com.yourcompany.maicolandco",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/maicolcohome.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "description": "Your app description here",
+    "sdkVersion": "52.0.0"
+  }
+}
